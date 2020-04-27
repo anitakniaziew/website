@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./Nav.module.css";
 
 export default class Nav extends React.Component {
   constructor(props) {
@@ -11,23 +12,26 @@ export default class Nav extends React.Component {
   }
 
   scroll() {
-    console.log("click");
     this.aboutRef.current.scrollIntoView();
   }
 
   render() {
     return (
-      <div>
-        <li ref={this.aboutRef} onClick={this.scroll}>
+      <div className={styles.nav}>
+        <li className={styles.link} ref={this.aboutRef} onClick={this.scroll}>
           About
         </li>
-        <li ref={this.projectsRef} onClick={this.scroll}>
+        <li
+          className={styles.link}
+          ref={this.projectsRef}
+          onClick={this.scroll}
+        >
           Projects
         </li>
-        <li ref={this.cvRef} onClick={this.scroll}>
+        <li className={styles.link} ref={this.cvRef} onClick={this.scroll}>
           CV
         </li>
-        <li ref={this.contactRef} onClick={this.scroll}>
+        <li className={styles.link} ref={this.contactRef} onClick={this.scroll}>
           Contact
         </li>
       </div>

@@ -1,0 +1,9 @@
+.nav {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}

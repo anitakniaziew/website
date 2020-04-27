@@ -1,6 +1,6 @@
 export default function CV() {
   return (
-    <div>
+    <div className="section">
       <h1>Some CV stuff</h1>
       <p>
         Stare at owner accusingly then wink munch, munch, chomp, chomp, or cough

@@ -1,0 +1,14 @@
+.header {
+    color: whitesmoke;
+    background-color: rgb(57, 57, 202);
+    width: 100%;
+    top: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 1.1em;
+    letter-spacing: 0.1em;
+}
+
+.name {
+    margin: 0;
+}

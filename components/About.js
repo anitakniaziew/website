@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div>
+    <div className="section">
       <h1>About me</h1>
       <p>
         Stare at owner accusingly then wink munch, munch, chomp, chomp, or cough
