@@ -1,4 +1,4 @@
-.nav {
+.link {
     color: white;
     text-decoration: none;
     list-style: none;
@@ -6,4 +6,5 @@
     justify-content: space-around;
     align-items: center;
     width: 50%;
+    cursor: pointer;
 }

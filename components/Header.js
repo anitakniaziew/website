@@ -1,11 +1,10 @@
-import Nav from "./Nav.js";
 import styles from "./Header.module.css";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <div className={styles.header}>
       <h1 className={styles.name}>Anita Kowalska</h1>
-      <Nav />
+      {props.children}
     </div>
   );
 }

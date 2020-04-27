@@ -1,6 +1,6 @@
-export default function Projects() {
+export default function Projects(props) {
   return (
-    <div className="section">
+    <div className="section" ref={props.reference}>
       <h1>Projects</h1>
       <p>
         Stare at owner accusingly then wink munch, munch, chomp, chomp, or cough

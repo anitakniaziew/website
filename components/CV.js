@@ -1,6 +1,6 @@
-export default function CV() {
+export default function CV(props) {
   return (
-    <div className="section">
+    <div className="section" ref={props.reference}>
       <h1>Some CV stuff</h1>
       <p>
         Stare at owner accusingly then wink munch, munch, chomp, chomp, or cough

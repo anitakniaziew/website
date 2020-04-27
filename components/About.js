@@ -1,6 +1,6 @@
-export default function About() {
+export default function About(props) {
   return (
-    <div className="section">
+    <div className="section" ref={props.reference}>
       <h1>About me</h1>
       <p>
         Stare at owner accusingly then wink munch, munch, chomp, chomp, or cough
