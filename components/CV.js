@@ -1,20 +1,70 @@
+import styles from "./CV.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faJsSquare,
+  faHtml5,
+  faCss3Alt,
+  faGitSquare,
+  faPython,
+} from "@fortawesome/free-brands-svg-icons";
+import { faTerminal } from "@fortawesome/free-solid-svg-icons";
+
 export default function CV(props) {
   return (
     <div className="section" ref={props.reference}>
       <h1>Some CV stuff</h1>
-      <p>
-        Stare at owner accusingly then wink munch, munch, chomp, chomp, or cough
-        yet bathe private parts with tongue then lick owner's face, for plop
-        down in the middle where everybody walks yet cats are cute but check cat
-        door for ambush 10 times before coming in. Climb a tree, wait for a
-        fireman jump to fireman then scratch his face sleep yet please stop
-        looking at your phone and pet me. I’m so hungry i’m so hungry but ew not
-        for that find empty spot in cupboard and sleep all day yet throw down
-        all the stuff in the kitchen, curl up and sleep on the freshly laundered
-        towels drink water out of the faucet see brother cat receive pets,
-        attack out of jealousy. Eats owners hair then claws head loved it, hated
-        it, loved it, hated it. Stare at owner accusingly then wink.
-      </p>
+      <div className={styles.midsection}>
+        <h2 className={styles.header}>Experience</h2>
+        <div>
+          <p className={styles.data}>2016-08 - 2018-04</p>
+          <p>Accountant at Tax Care S.A.</p>
+        </div>
+      </div>
+      <div className={styles.midsection}>
+        <h2 className={styles.header}>Education</h2>
+        <div>
+          <p className={styles.data}>2012-2014</p>
+          <p>
+            Master of Finance and Accounting, University of Economics in
+            Katowice
+          </p>
+        </div>
+      </div>
+      <div className={styles.midsection}>
+        <h2 className={styles.header}>Skills</h2>
+        <ul className={styles.skills}>
+          <li>
+            <FontAwesomeIcon icon={faJsSquare} />
+            JavaScript
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faHtml5} />
+            HTML5
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faCss3Alt} />
+            CSS
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faGitSquare} />
+            Git
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faPython} />
+            Python
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faTerminal} />
+            Unix Shell
+          </li>
+        </ul>
+      </div>
+      <div className={styles.midsection}>
+        <h2 className={styles.header}>Languages</h2>
+        <li>English B2</li>
+        <li>Japanese </li>
+      </div>
     </div>
   );
 }

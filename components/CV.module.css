@@ -1,0 +1,18 @@
+.midsection {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.header, .data {
+    margin-bottom: 0.2em;
+}
+
+.data {
+    color:     rgb(57, 57, 202);
+    font-weight: 600;
+}
+
+.skills {
+    list-style: none;
+}
+
