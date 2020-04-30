@@ -8,20 +8,18 @@
 
 body {
     font-family: 'Montserrat', Helvetica, sans-serif;
-    color: rgb(39, 39, 46);
+    color: rgb(20, 28, 51);
     overscroll-behavior: none;
 }
 
+
 main {
-    padding: 1.5em;
-    width: 60%;
-    margin: 0 auto;
-    height: 100%;
+    margin-left: 6%;
 }
 
 .section {
-    margin-top: 5em;
-    margin-bottom: 5em;
+    padding: 50px 10em;
+    height: 100vh;
 }
 
 .section h1 {

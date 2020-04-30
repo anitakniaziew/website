@@ -5,6 +5,12 @@ import Contact from "../components/Contact.js";
 import CV from "../components/CV.js";
 import Projects from "../components/Projects.js";
 import React from "react";
+import {
+  faUser,
+  faBriefcase,
+  faClone,
+  faPaperPlane,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -19,10 +25,26 @@ export default class Home extends React.Component {
     return (
       <div className="container">
         <Header>
-          <NavItem name="About" reference={this.aboutRef}></NavItem>
-          <NavItem name="Projects" reference={this.projectsRef}></NavItem>
-          <NavItem name="CV" reference={this.cvRef}></NavItem>
-          <NavItem name="Contact" reference={this.contactRef}></NavItem>
+          <NavItem
+            // name="About"
+            reference={this.aboutRef}
+            icon={faUser}
+          ></NavItem>
+          <NavItem
+            // name="Projects"
+            reference={this.projectsRef}
+            icon={faClone}
+          ></NavItem>
+          <NavItem
+            // name="CV"
+            reference={this.cvRef}
+            icon={faBriefcase}
+          ></NavItem>
+          <NavItem
+            // name="Contact"
+            reference={this.contactRef}
+            icon={faPaperPlane}
+          ></NavItem>
         </Header>
         <main>
           <About reference={this.aboutRef} />

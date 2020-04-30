@@ -1,0 +1,11 @@
+.contactList {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.contactIcon {
+    font-size: 1.5em;
+    color: rgb(255,143,117);
+    margin: 0.6em;
+}
