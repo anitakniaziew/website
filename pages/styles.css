@@ -18,12 +18,13 @@ main {
 }
 
 .section {
-    padding: 50px 10em;
-    height: 100vh;
+    padding: 0 10em;
+    min-height: 100vh;
 }
 
 .section h1 {
-    margin-bottom: 0.5em;
+    padding-top: 70px;
+    margin-bottom: 0.7em;
     text-align: center;
     letter-spacing: 0.1em;
 }

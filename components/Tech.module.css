@@ -1,0 +1,12 @@
+
+.techBox {
+    border: 1px solid rgba(255,103,133,0.2);
+    border-radius: 1px;
+    padding: 0.4em;
+    color: white;
+    background-color: rgba(255,143,117,0.9);
+}
+
+.techIcon {
+    margin-right: 0.6em;
+}

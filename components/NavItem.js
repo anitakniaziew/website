@@ -11,7 +11,6 @@ export default class Nav extends React.Component {
   scroll(ref) {
     ref.current.scrollIntoView({
       behavior: "smooth",
-      block: "center",
     });
   }
 
@@ -21,7 +20,6 @@ export default class Nav extends React.Component {
         className={styles.navIcon}
         onClick={() => this.scroll(this.props.reference)}
       >
-        {/* {this.props.name} */}
         <FontAwesomeIcon icon={this.props.icon} />
       </li>
     );
