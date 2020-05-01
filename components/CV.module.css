@@ -3,8 +3,8 @@
     margin-bottom: 1em;
 }
 
-.header, .data {
-    margin-bottom: 0.2em;
+.header {
+    margin-bottom: 0.4em;
 }
 
 .data {
@@ -13,6 +13,20 @@
 }
 
 .skills {
+    width: 100%;
     list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.technologyIcon {
+    font-size: 2.3em;
+    margin-bottom: 0.2em;
 }
 

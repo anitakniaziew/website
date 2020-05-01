@@ -34,28 +34,43 @@ export default function CV(props) {
       <div className={styles.midsection}>
         <h2 className={styles.header}>Skills</h2>
         <ul className={styles.skills}>
-          <li>
-            <FontAwesomeIcon icon={faJsSquare} />
+          <li className={styles.technology}>
+            <FontAwesomeIcon
+              icon={faJsSquare}
+              className={styles.technologyIcon}
+            />
             JavaScript
           </li>
-          <li>
-            <FontAwesomeIcon icon={faHtml5} />
+          <li className={styles.technology}>
+            <FontAwesomeIcon icon={faHtml5} className={styles.technologyIcon} />
             HTML5
           </li>
-          <li>
-            <FontAwesomeIcon icon={faCss3Alt} />
+          <li className={styles.technology}>
+            <FontAwesomeIcon
+              icon={faCss3Alt}
+              className={styles.technologyIcon}
+            />
             CSS
           </li>
-          <li>
-            <FontAwesomeIcon icon={faGitSquare} />
+          <li className={styles.technology}>
+            <FontAwesomeIcon
+              icon={faGitSquare}
+              className={styles.technologyIcon}
+            />
             Git
           </li>
-          <li>
-            <FontAwesomeIcon icon={faPython} />
+          <li className={styles.technology}>
+            <FontAwesomeIcon
+              icon={faPython}
+              className={styles.technologyIcon}
+            />
             Python
           </li>
-          <li>
-            <FontAwesomeIcon icon={faTerminal} />
+          <li className={styles.technology}>
+            <FontAwesomeIcon
+              icon={faTerminal}
+              className={styles.technologyIcon}
+            />
             Unix Shell
           </li>
         </ul>
