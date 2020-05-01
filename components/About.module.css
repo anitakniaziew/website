@@ -1,0 +1,14 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 35%;
+    height: auto;
+}
+
+.description {
+    width: 60%;
+    align-self: center;
+}

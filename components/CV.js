@@ -13,18 +13,18 @@ import { faTerminal } from "@fortawesome/free-solid-svg-icons";
 export default function CV(props) {
   return (
     <div className="section" ref={props.reference}>
-      <h1>Some CV stuff</h1>
+      <h1>Experience &amp; Education</h1>
       <div className={styles.midsection}>
         <h2 className={styles.header}>Experience</h2>
         <div>
-          <p className={styles.data}>2016-08 - 2018-04</p>
+          <p className={styles.data}>2016 - 2018</p>
           <p>Accountant at Tax Care S.A.</p>
         </div>
       </div>
       <div className={styles.midsection}>
         <h2 className={styles.header}>Education</h2>
         <div>
-          <p className={styles.data}>2012-2014</p>
+          <p className={styles.data}>2012 - 2014</p>
           <p>
             Master of Finance and Accounting, University of Economics in
             Katowice
