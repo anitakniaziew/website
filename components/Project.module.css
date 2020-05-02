@@ -3,8 +3,12 @@
     justify-content: space-between;
 }
 
-.projectImg {
+.project a {
     width: 45%;
+}
+
+.projectImg {
+    width: 100%;
     height: auto;
     border: 1px solid rgb(245, 245, 245);
     border-radius: 10px;
@@ -15,7 +19,19 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+}
+
+.details a {
+    width: 100%;
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    margin: 0.5em 0;
+}
+
+.gitIcon {
+    margin-right: 0.5em;
 }
 
 .techList {
