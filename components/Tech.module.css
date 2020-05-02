@@ -1,7 +1,7 @@
 
 .techBox {
     border: 1px solid rgba(255,103,133,0.2);
-    border-radius: 1px;
+    border-radius: 4px;
     padding: 0.4em;
     color: white;
     background-color: rgba(255,143,117,0.9);

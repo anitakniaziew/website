@@ -12,7 +12,7 @@ export default class Project extends React.Component {
           <p>{this.props.description}</p>
           <ul className={styles.techList}>
             {this.props.stacks.map((tech) => (
-              <Tech name={tech.name} icon={tech.icon}></Tech>
+              <Tech key={tech.name} name={tech.name} icon={tech.icon}></Tech>
             ))}
           </ul>
         </div>
