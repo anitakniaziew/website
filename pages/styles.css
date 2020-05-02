@@ -20,11 +20,12 @@ main {
 .section {
     padding: 0 10em;
     min-height: 100vh;
+    background-color: rgb(255, 249, 243);
 }
 
 .section h1 {
     padding-top: 70px;
-    margin-bottom: 0.7em;
+    margin-bottom: 0.9em;
     text-align: center;
     letter-spacing: 0.1em;
 }
@@ -35,4 +36,7 @@ main {
     font-size: 18px;
 }
 
+li {
+    list-style: none;
+}
 

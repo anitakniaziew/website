@@ -1,32 +1,49 @@
-.midsection {
+.cvBox {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+.midsection {
+    width: 45%;
+    margin-bottom: 2em;
+    padding: 0.5em;
 }
 
 .header {
     margin-bottom: 0.4em;
+    text-align: center;
 }
 
 .data {
     color: rgba(255,143,117,1);
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.place, .technology {
+    font-size: 0.9em !important;
+    margin-bottom: 0.2em;
 }
 
 .skills {
     width: 100%;
-    list-style: none;
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .technology {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 30%;
 }
 
 .technologyIcon {
-    font-size: 2.3em;
+    font-size: 2em;
     margin-bottom: 0.2em;
 }
+
 
