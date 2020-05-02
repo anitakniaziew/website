@@ -10,16 +10,24 @@ export default function Contact(props) {
     <div className="section" ref={props.reference}>
       <h1>Contact</h1>
       <div className={styles.contactList}>
-        <a href="mailto:@gmail.com">
+        <a href="mailto:@gmail.com" target="_blank" className={styles.iconBox}>
           <FontAwesomeIcon className={styles.contactIcon} icon={faInbox} />
         </a>
-        <a href="https://github.com/anitakniaziew">
+        <a
+          href="https://github.com/anitakniaziew"
+          target="_blank"
+          className={styles.iconBox}
+        >
           <FontAwesomeIcon
             className={styles.contactIcon}
             icon={faGithubSquare}
           />
         </a>
-        <a href="https://www.linkedin.com/in/anita- kowalska-349400a4">
+        <a
+          href="https://www.linkedin.com/in/anita-kowalska-349400a4"
+          target="_blank"
+          className={styles.iconBox}
+        >
           <FontAwesomeIcon className={styles.contactIcon} icon={faLinkedin} />
         </a>
       </div>
