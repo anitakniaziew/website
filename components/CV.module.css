@@ -1,15 +1,9 @@
 .cvContainer {
-    display: inline-flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 250px 250px;
     width: 100%;
     margin-bottom: 2em;
-}
-
-.midsection {
-    width: 50%;
-    margin-bottom: 0.5em;
-    padding: 0.5em;
 }
 
 .header {
@@ -43,7 +37,14 @@
 
 .technologyIcon {
     font-size: 2em;
-    margin-bottom: 0.2em;
+    margin-top: 0.5em;
 }
 
+.flags {
+    font-size: 72px;
+    text-align: center;
+}
 
+.flags span {
+    margin: 0 20px;
+}

@@ -1,7 +1,10 @@
 import styles from "./Box.module.css";
+import classNames from "classnames";
 
-export default class Box extends React.Component {
-  render() {
-    return <div className={styles.box}>{this.props.children}</div>;
-  }
+export default function Box(props) {
+  return (
+    <div className={classNames(styles.box, props.className)}>
+      {props.children}
+    </div>
+  );
 }

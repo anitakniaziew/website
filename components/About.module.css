@@ -1,6 +1,6 @@
 .about {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .avatar {
@@ -9,6 +9,7 @@
 }
 
 .description {
-    width: 60%;
+    width: 55%;
     align-self: center;
+    font-size: 1.1em;
 }

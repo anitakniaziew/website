@@ -1,5 +1,4 @@
 import Project from "./Project.js";
-import tech from "../data.js";
 
 export default function Projects(props) {
   return (
@@ -11,7 +10,7 @@ export default function Projects(props) {
         img="./kotoba.png"
         description="Simple aplication for learning japanese words"
         git="https://github.com/anitakniaziew/Kotoba"
-        stacks={[tech.react, tech.js, tech.css, tech.html]}
+        stacks={["react", "js", "css", "html"]}
       ></Project>
       <Project
         name="warsaw.ex"
@@ -19,7 +18,7 @@ export default function Projects(props) {
         img="./warsaw-ex.png"
         description="Warsaw elixir meet-up webpage"
         git="https://github.com/anitakniaziew/Kotoba"
-        stacks={[tech.react, tech.js, tech.css, tech.html]}
+        stacks={["react", "js", "css", "html"]}
       ></Project>
       <Project
         name="Noughts and Crosses"
@@ -27,7 +26,7 @@ export default function Projects(props) {
         img="./ox.png"
         description="That's a neon style simple noughts and crosses game. Created to check out CSS and JS skills without using any tutorials, just following ideas and intuition."
         git="https://github.com/anitakniaziew/Noughts-and-Crosses"
-        stacks={[tech.js, tech.css, tech.html]}
+        stacks={["js", "css", "html"]}
       ></Project>
       <Project
         name="Memory"
@@ -35,7 +34,7 @@ export default function Projects(props) {
         img="./memory.png"
         description="Just a simple memory game. Created to excercise CSS and JS skills."
         git="https://github.com/anitakniaziew/memory"
-        stacks={[tech.js, tech.css, tech.html]}
+        stacks={["js", "css", "html"]}
       ></Project>
       <Project
         name="Calculator"
@@ -43,7 +42,7 @@ export default function Projects(props) {
         img="./calculator.png"
         description="Basic operations calculator."
         git="https://github.com/anitakniaziew/calculator"
-        stacks={[tech.js, tech.css, tech.html]}
+        stacks={["js", "css", "html"]}
       ></Project>
     </div>
   );

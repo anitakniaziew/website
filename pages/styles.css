@@ -19,7 +19,7 @@ main {
 }
 
 .section {
-    padding: 0 10em;
+    padding: 0 11em;
     min-height: 100vh;
 }
 
@@ -32,8 +32,6 @@ main {
 
 .section p {
     line-height: 1.5;
-    text-align: justify;
-    font-size: 18px;
 }
 
 li {
