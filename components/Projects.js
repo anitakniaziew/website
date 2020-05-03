@@ -7,40 +7,40 @@ export default function Projects(props) {
       <Project
         name="Kotoba"
         href="https://app.kotoba.dev"
-        img="./kotoba.png"
-        description="Simple aplication for learning japanese words"
+        img="/kotoba.png"
+        description="A Japanese language learning app, where you can add words to a database and learn them effectively. I've implemented the front-end part that connects to a back-end hosted on Firebase."
         git="https://github.com/anitakniaziew/Kotoba"
         stacks={["react", "js", "css", "html"]}
       ></Project>
       <Project
         name="warsaw.ex"
         href="https://www.warsawex.org/"
-        img="./warsaw-ex.png"
-        description="Warsaw elixir meet-up webpage"
-        git="https://github.com/anitakniaziew/Kotoba"
+        img="/warsaw-ex.png"
+        description="Home page for warsaw.ex - a Warsaw Elixir meetup group. Uses Next.js for server-side rendering and easy hosting through Vercel. I needed to convert the design into HTML and CSS, and connect to a back-end for talk submission."
+        git="https://github.com/warsawex/website"
         stacks={["react", "js", "css", "html"]}
       ></Project>
       <Project
         name="Noughts and Crosses"
         href="https://anitakniaziew.github.io/Noughts-and-Crosses/noughtsCrosses.html"
-        img="./ox.png"
-        description="That's a neon style simple noughts and crosses game. Created to check out CSS and JS skills without using any tutorials, just following ideas and intuition."
+        img="/ox.png"
+        description="A neon-style noughts and crosses game. Created to check out CSS, JS and HTML without using any tutorials, just following ideas and intuition."
         git="https://github.com/anitakniaziew/Noughts-and-Crosses"
         stacks={["js", "css", "html"]}
       ></Project>
       <Project
         name="Memory"
         href="https://anitakniaziew.github.io/memory/index.html"
-        img="./memory.png"
-        description="Just a simple memory game. Created to excercise CSS and JS skills."
+        img="/memory.png"
+        description="The goal of the game is to uncover pairs of similarly-coloured rectangles. Created using vanilla JavaScript, CSS and HTML."
         git="https://github.com/anitakniaziew/memory"
         stacks={["js", "css", "html"]}
       ></Project>
       <Project
         name="Calculator"
         href="https://anitakniaziew.github.io/calculator/calculator.html"
-        img="./calculator.png"
-        description="Basic operations calculator."
+        img="/calculator.png"
+        description="A calculator app where operations are performed depending on the state of the calculator. I drew the state diagram before implementing the calculator - you can check it out on GitHub."
         git="https://github.com/anitakniaziew/calculator"
         stacks={["js", "css", "html"]}
       ></Project>

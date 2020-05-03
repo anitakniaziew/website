@@ -21,7 +21,7 @@ export default class Project extends React.Component {
               icon={faGithubSquare}
               className={styles.gitHubIcon}
             ></FontAwesomeIcon>
-            anitakniaziew/{this.props.name}
+            {this.props.git.replace("https://github.com/", "")}
           </a>
           <ul className={styles.techList}>
             {this.props.stacks.map((tech) => (
