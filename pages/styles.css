@@ -12,6 +12,10 @@ body {
     overscroll-behavior: none;
 }
 
+p {
+    margin: 10px 0;
+}
+
 
 main {
     margin-left: 6%;
