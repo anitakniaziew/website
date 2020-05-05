@@ -13,3 +13,19 @@
     align-self: center;
     font-size: 1.1em;
 }
+
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .about {
+        flex-direction: column;
+    }
+    .avatar {
+        width: 45%;
+        height: auto;
+        align-self: center;
+    }
+    .description {
+        width: 100%;
+        margin: 10px;
+    }
+}

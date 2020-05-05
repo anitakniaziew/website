@@ -20,3 +20,26 @@
     justify-content: space-around;
     align-items: center;
 }
+
+
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .header {
+        height: 4%;
+        width: 100%;
+        letter-spacing: 0.1em;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        box-shadow: 2px 0px 1px rgb(245, 245, 245);
+        position: fixed;
+        bottom: 0px;
+        z-index: 1;
+    }
+    .navPanel {
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
