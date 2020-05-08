@@ -8,5 +8,24 @@
 }
 
 .techIcon {
-    margin-right: 0.6em;
+    margin-right: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .techBox {
+        margin-right: 3px;
+        margin-top: 4px;
+        padding: 3px;
+    }
+    .techIcon {
+        margin-right: 4px;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 1030px) {
+    .techBox {
+        margin-right: 4px;
+        margin-top: 4px;
+        padding: 4px;
+    }
 }

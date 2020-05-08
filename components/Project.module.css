@@ -53,4 +53,18 @@
     .project a, .details {
         width: 100%
     }
+    .techList {
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 500;
+    }
+}
+
+
+@media (min-width: 761px) and (max-width: 1000px) {
+    .techList {
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 600;
+    }
 }
