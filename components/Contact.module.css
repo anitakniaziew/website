@@ -21,3 +21,9 @@
     font-size: 1.4em;
     line-height: 1;
 }
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .contactList {
+        width: 100%;
+    }
+}

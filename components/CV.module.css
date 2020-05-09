@@ -48,3 +48,10 @@
 .flags span {
     margin: 0 20px;
 }
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .cvContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}

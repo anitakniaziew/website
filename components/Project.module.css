@@ -44,3 +44,27 @@
     font-size: 0.7em;
     font-weight: 600;
 }
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .project {
+        flex-direction: column;
+    }
+
+    .project a, .details {
+        width: 100%
+    }
+    .techList {
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 500;
+    }
+}
+
+
+@media (min-width: 761px) and (max-width: 1000px) {
+    .techList {
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 600;
+    }
+}
