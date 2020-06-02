@@ -13,7 +13,7 @@ export default function Contact(props) {
       <div className={styles.contactList}>
         <Box>
           <a
-            href="mailto:@gmail.com"
+            href="mailto:anita@kowalska.dev"
             target="_blank"
             className={styles.iconBox}
           >
