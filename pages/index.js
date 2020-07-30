@@ -32,6 +32,12 @@ export default class Home extends React.Component {
             name="description"
             content="I'm an aspiring JavaScript and React developer - check out my project portfolio and GitHub repositories."
           />
+          <script
+            async
+            defer
+            data-domain="kowalska.dev"
+            src="https://plausible.io/js/plausible.js"
+          ></script>
         </Head>
         <Header>
           <NavItem reference={this.aboutRef} icon={faUser}></NavItem>
