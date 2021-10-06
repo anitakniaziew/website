@@ -30,7 +30,7 @@ export default class Home extends React.Component {
           <title>Anita Kowalska - JavaScript, React, CSS and HTML</title>
           <meta
             name="description"
-            content="I'm an aspiring JavaScript and React developer - check out my project portfolio and GitHub repositories."
+            content="JavaScript and React developer - check out my project portfolio and GitHub repositories."
           />
           <script
             async

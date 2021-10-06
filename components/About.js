@@ -11,17 +11,13 @@ export default function About({reference}) {
           <Image src="/avatar.svg" alt="avatar" className={styles.avatar} width="200px" height="200px" />
           <div className={styles.description}>
             <p>
-              After five years of working as an accountant 💰, I've decided to
-              change my life and{" "}
-              <strong>start a career as a programmer 🖥.</strong>
+              Former accountant, currently exploring arcana of <strong> frontend development 🪄 🖥 </strong>while slurping <strong> ramen 🍜</strong> and learning Japanese.
             </p>
             <p>
-              I am a home-learner, taking online courses, in the meantime
-              working on my first projects.
+              When I'm not coding I enjoy <strong>knitting 🧶</strong> or watching <strong> F1 🏎</strong> races!
             </p>
             <p>
-              In my free time I like to <strong>learn Japanese 🍡</strong> and
-              do some <strong>knitting 🧶!</strong>
+              Currently on<strong> hiatus 🤰</strong>
             </p>
           </div>
         </div>
