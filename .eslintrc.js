@@ -5,19 +5,16 @@ module.exports = {
   },
   extends: ["plugin:prettier/recommended"],
   globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
   },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
     ecmaVersion: 2018,
-    sourceType: 'module',
+    sourceType: "module",
   },
-  plugins: [
-    'react',
-  ],
-  rules: {
-  },
+  plugins: ["react"],
+  rules: {},
 };
