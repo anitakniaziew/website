@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ["plugin:prettier/recommended"],
+  extends: ["plugin:prettier/recommended", "plugin:@next/next/recommended"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
