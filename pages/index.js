@@ -6,7 +6,7 @@ import About from "../components/About.js";
 import Contact from "../components/Contact.js";
 import CV from "../components/CV.js";
 import Projects from "../components/Projects.js";
-import React from "react";
+
 import {
   faUser,
   faBriefcase,
