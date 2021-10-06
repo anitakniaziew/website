@@ -16,5 +16,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    '@next/next/no-document-import-in-page': 'off',
   },
 };
