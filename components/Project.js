@@ -1,4 +1,5 @@
-import { render } from "react-dom";
+import React from "react";
+import Image from "next/image";
 import Box from "./Box.js";
 import Tech from "./Tech.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,7 +12,7 @@ export default class Project extends React.Component {
     return (
       <Box className={styles.project}>
         <a href={this.props.href} target="_blank">
-          <img src={this.props.img} className={styles.projectImg} />
+          <Image src={this.props.img} className={styles.projectImg} width="400px" height="300px" />
         </a>
         <div className={styles.details}>
           <h2>{this.props.name}</h2>

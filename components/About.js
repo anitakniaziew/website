@@ -1,4 +1,5 @@
 import Box from "./Box.js";
+import Image from "next/image";
 import styles from "./About.module.css";
 
 export default function About(props) {
@@ -7,7 +8,7 @@ export default function About(props) {
       <h1>Hi, I'm Anita!</h1>
       <Box>
         <div className={styles.about}>
-          <img src="/avatar.svg" alt="avatar" className={styles.avatar} />
+          <Image src="/avatar.svg" alt="avatar" className={styles.avatar} width="200px" height="200px" />
           <div className={styles.description}>
             <p>
               After five years of working as an accountant 💰, I've decided to
