@@ -1,4 +1,3 @@
-import { render } from "react-dom";
 import styles from "./Tech.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -25,7 +24,8 @@ export default function Tech(props) {
       <FontAwesomeIcon
         icon={technology.icon}
         className={styles.techIcon}
-      ></FontAwesomeIcon>
+      >
+      </FontAwesomeIcon>
       {technology.name}
     </div>
   );
