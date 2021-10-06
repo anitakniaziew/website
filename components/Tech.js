@@ -7,6 +7,7 @@ import {
   faCss3Alt,
   faPython,
   faReact,
+  faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 
 const technologies = {
@@ -15,6 +16,7 @@ const technologies = {
   css: { name: "CSS", icon: faCss3Alt },
   python: { name: "Phyton", icon: faPython },
   react: { name: "React", icon: faReact },
+  node: { name: "Node.js", icon: faNodeJs },
 };
 
 export default function Tech({id}) {

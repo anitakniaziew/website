@@ -11,7 +11,7 @@ export default function Project({href, img, name, description, git, stacks}) {
   return (
     <Box className={styles.project}>
       <a href={href} target="_blank">
-        <Image src={img} className={styles.projectImg} width="400px" height="300px" />
+        <Image src={img} className={styles.projectImg} width="400px" height="260px" />
       </a>
       <div className={styles.details}>
         <h2>{name}</h2>
