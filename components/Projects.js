@@ -1,8 +1,8 @@
 import Project from "./Project.js";
 
-export default function Projects(props) {
+export default function Projects({reference}) {
   return (
-    <div className="section" ref={props.reference}>
+    <div className="section" ref={reference}>
       <h1>Projects</h1>
       <Project
         name="Kotoba"

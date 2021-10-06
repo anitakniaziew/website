@@ -12,9 +12,9 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faTerminal } from "@fortawesome/free-solid-svg-icons";
 
-export default function CV(props) {
+export default function CV({reference}) {
   return (
-    <div className="section" ref={props.reference}>
+    <div className="section" ref={reference}>
       <h1>Experience &amp; Education</h1>
       <div className={styles.cvContainer}>
         <Box className={styles.midsection}>

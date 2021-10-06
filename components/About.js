@@ -2,9 +2,9 @@ import Box from "./Box.js";
 import Image from "next/image";
 import styles from "./About.module.css";
 
-export default function About(props) {
+export default function About({reference}) {
   return (
-    <div className="section" ref={props.reference}>
+    <div className="section" ref={reference}>
       <h1>Hi, I'm Anita!</h1>
       <Box>
         <div className={styles.about}>

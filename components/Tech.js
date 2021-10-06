@@ -17,8 +17,8 @@ const technologies = {
   react: { name: "React", icon: faReact },
 };
 
-export default function Tech(props) {
-  const technology = technologies[props.id];
+export default function Tech({id}) {
+  const technology = technologies[id];
   return (
     <div className={styles.techBox}>
       <FontAwesomeIcon
