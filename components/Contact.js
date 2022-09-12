@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInbox } from "@fortawesome/free-solid-svg-icons";
 import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-export default function Contact(props) {
+export default function Contact({reference}) {
   return (
-    <div className="section" ref={props.reference}>
+    <div className="section" ref={reference}>
       <h1>Contact</h1>
       <div className={styles.contactList}>
         <Box>

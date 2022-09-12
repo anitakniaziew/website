@@ -1,9 +1,24 @@
 import Project from "./Project.js";
 
-export default function Projects(props) {
+export default function Projects({reference}) {
   return (
-    <div className="section" ref={props.reference}>
+    <div className="section" ref={reference}>
       <h1>Projects</h1>
+      <Project
+        name="Memes"
+        img="/memes.png"
+        description="ALK final project - memes voting application written in React using a bit of Redux Toolkit."
+        git="https://github.com/anitakniaziew/memes"
+        stacks={["react"]}
+      ></Project>
+      <Project
+        name="IT-SPA"
+        href="https://it-spa.herokuapp.com/"
+        img="/it-spa.png"
+        description="ALK final project - booking platform for SPA and Wellness resort 💆🏻‍♀️. API is written in Node.js and express and uses MongoDB. Frontend is written in JavaScript, using ES6."
+        git="https://github.com/anitakniaziew/it-spa"
+        stacks={["js", "node", "css"]}
+      ></Project>
       <Project
         name="Kotoba"
         href="https://app.kotoba.dev"

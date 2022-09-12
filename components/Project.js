@@ -7,30 +7,28 @@ import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 
 import styles from "./Project.module.css";
 
-export default class Project extends React.Component {
-  render() {
-    return (
-      <Box className={styles.project}>
-        <a href={this.props.href} target="_blank">
-          <Image src={this.props.img} className={styles.projectImg} width="400px" height="300px" />
+export default function Project({href, img, name, description, git, stacks}) {
+  return (
+    <Box className={styles.project}>
+      <a href={href} target="_blank">
+        <Image src={img} className={styles.projectImg} width="400px" height="260px" />
+      </a>
+      <div className={styles.details}>
+        <h2>{name}</h2>
+        <p>{description}</p>
+        <a href={git} target="_blank">
+          <FontAwesomeIcon
+            icon={faGithubSquare}
+            className={styles.gitHubIcon}
+          ></FontAwesomeIcon>
+          {git.replace("https://github.com/", "")}
         </a>
-        <div className={styles.details}>
-          <h2>{this.props.name}</h2>
-          <p>{this.props.description}</p>
-          <a href={this.props.git} target="_blank">
-            <FontAwesomeIcon
-              icon={faGithubSquare}
-              className={styles.gitHubIcon}
-            ></FontAwesomeIcon>
-            {this.props.git.replace("https://github.com/", "")}
-          </a>
-          <ul className={styles.techList}>
-            {this.props.stacks.map((tech) => (
-              <Tech key={tech} id={tech}></Tech>
-            ))}
-          </ul>
-        </div>
-      </Box>
-    );
-  }
+        <ul className={styles.techList}>
+          {stacks.map((tech) => (
+            <Tech key={tech} id={tech}></Tech>
+          ))}
+        </ul>
+      </div>
+    </Box>
+  );
 }

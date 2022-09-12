@@ -1,4 +1,3 @@
-import { render } from "react-dom";
 import styles from "./Tech.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -8,6 +7,7 @@ import {
   faCss3Alt,
   faPython,
   faReact,
+  faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 
 const technologies = {
@@ -16,16 +16,18 @@ const technologies = {
   css: { name: "CSS", icon: faCss3Alt },
   python: { name: "Phyton", icon: faPython },
   react: { name: "React", icon: faReact },
+  node: { name: "Node.js", icon: faNodeJs },
 };
 
-export default function Tech(props) {
-  const technology = technologies[props.id];
+export default function Tech({id}) {
+  const technology = technologies[id];
   return (
     <div className={styles.techBox}>
       <FontAwesomeIcon
         icon={technology.icon}
         className={styles.techIcon}
-      ></FontAwesomeIcon>
+      >
+      </FontAwesomeIcon>
       {technology.name}
     </div>
   );

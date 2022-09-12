@@ -1,9 +1,17 @@
 .cvContainer {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: auto auto;
     width: 100%;
     margin-bottom: 2em;
+}
+
+.midsection {
+    height: auto;
+}
+
+.midsectionItem {
+    margin-bottom: 1.5em;
 }
 
 .header {
@@ -14,6 +22,7 @@
 .data {
     color: rgba(255,143,117,1);
     font-weight: 500;
+    margin-bottom: 0.2em;
 }
 
 .place, .technology {
